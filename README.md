@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/FacePlusPlus/facepp-java-sdk/facepp-v3/FaceppS
   
 faceppsdk.jar 複製至 libs  
 [File] → [Project Structure] → [Modules] → 選擇對應的模組  
-                             → [Dependencies] → [+] → [File dependency] → 選擇libs\faceppsdk.jar  → [OK]  
+﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍→ [Dependencies] → [+] → [File dependency] → 選擇libs\faceppsdk.jar  → [OK]  
 
 ● JSON 格式化工具
   
