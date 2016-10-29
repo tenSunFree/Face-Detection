@@ -17,10 +17,30 @@ https://raw.githubusercontent.com/FacePlusPlus/facepp-java-sdk/facepp-v3/FaceppS
   
 http://www.bejson.com/
   
-# 成品
+# 預覽
   
 01
   
-#
+![image](http://i.imgur.com/cIaGOam.jpg)
+  
+01
+  
+![image](http://i.imgur.com/4HgRSUV.jpg)
+  
+01
+  
+![image](http://i.imgur.com/gua6g1O.jpg)
+  
+01
+  
+![image](http://i.imgur.com/yhRmN6g.jpg)
+  
+01
+  
+![image](http://i.imgur.com/4ZhHYMv.jpg)
+  
+01
+  
+![image](http://i.imgur.com/2m6XjeL.jpg)
 
 
