@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/FacePlusPlus/facepp-java-sdk/facepp-v3/FaceppS
   
 ● 導入方法
   
-faceppsdk.jar 複製至 libs  
+先將 faceppsdk.jar 複製至 libs  
 [File] → [Project Structure] → [Modules] → 選擇對應的模組  
 [Dependencies] → [+] → [File dependency] → 選擇 libs\faceppsdk.jar  → [OK]  
 
