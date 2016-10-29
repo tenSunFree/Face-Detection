@@ -13,6 +13,12 @@ http://www.faceplusplus.com.cn/
 
 https://raw.githubusercontent.com/FacePlusPlus/facepp-java-sdk/facepp-v3/FaceppSDK/output/faceppsdk.jar
   
+● 導入方法
+  
+faceppsdk.jar 複製至 libs  
+[File] → [Project Structure] → [Modules] → 選擇對應的模組  
+                             → [Dependencies] → [+] → [File dependency] → 選擇libs\faceppsdk.jar  → [OK]  
+
 ● JSON 格式化工具
   
 http://www.bejson.com/
