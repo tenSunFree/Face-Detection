@@ -6,10 +6,10 @@
 http://www.faceplusplus.com.cn/
   
 
-● 需要註冊 取得 API Key & API Secret
+● 需要註冊,  取得 API Key & API Secret
    
 
-● 需要下載 導入 SDK   
+● 需要下載, 導入 SDK   
 
 https://raw.githubusercontent.com/FacePlusPlus/facepp-java-sdk/facepp-v3/FaceppSDK/output/faceppsdk.jar
   
