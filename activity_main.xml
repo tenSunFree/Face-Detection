@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.macdidi.face_detection.MainActivity">
+
+    <include layout="@layout/top" />
+
+    <Button
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:id="@+id/getImage"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="選擇圖片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:layout_toLeftOf="@+id/getImage"
+        android:id="@+id/detect"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="開始分析"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:text="首先, 選擇一張圖片"
+        android:id="@+id/tip"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/detect"
+        android:layout_alignTop="@+id/detect"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/i_03"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/detect"
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/waitting"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@drawable/h_03"
+            android:text="1111"
+            android:gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textColor="#ffff00ff"
+            android:visibility="invisible"
+            android:drawableLeft="@drawable/f_01"
+            android:id="@+id/age_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>
